@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .field{
+        .field {
             border: 1px solid black;
         }
-        .ball{
+
+        .ball {
             width: 50px;
             height: 50PX;
             background-color: red;
@@ -18,19 +20,23 @@
             left: 513px;
             transition: transform 1s ease-out 0.2s;
         }
-        .field:hover .ball{
-             transform: translate(800px, -300px);   
+
+        .field:hover .ball {
+            transform: translate(800px, -300px);
         }
-        .bat{
+
+        .bat {
             transition: transform 0.2s ease-in;
         }
-        .field:hover .bat{
+
+        .field:hover .bat {
             transform: rotate(-60deg);
             transform-origin: top right;
-            
+
         }
     </style>
 </head>
+
 <body>
     <div class="field">
         <img class="bat" src="./images/bat.png" alt="">
@@ -39,4 +45,5 @@
         </div>
     </div>
 </body>
+
 </html>
